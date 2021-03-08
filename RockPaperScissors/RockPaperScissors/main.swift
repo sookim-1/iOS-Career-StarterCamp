@@ -22,7 +22,7 @@ class RockPaperScissorsGame {
             computerHand = RockPaperScissorsHand(rawValue: Int.random(in: 1...3))
             print("가위(1), 바위(2), 보(3)! <종료 : 0> : ", terminator:"")
             if let inputUserNumber = readLine() {
-                if isValidUserNumber(inputUserNumber) {
+                if checkUserNumber(inputUserNumber) {
                     convertStringToInt(inputUserNumber)
                     break
                 }
@@ -30,7 +30,7 @@ class RockPaperScissorsGame {
         }
     }
     
-    private func isValidUserNumber(_ userNumber: String) -> Bool {
+    private func checkUserNumber(_ userNumber: String) -> Bool {
         switch userNumber {
         case "0", "1", "2", "3":
             return true
