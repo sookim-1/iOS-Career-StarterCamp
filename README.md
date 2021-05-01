@@ -4,6 +4,8 @@
 
 🗓 21.03.08 ~ 21.03.19 
 
+👥 Fezz, SuKim (2)
+
 ## Feature
 
 - MVC Pattern
