@@ -64,12 +64,9 @@ extension MemoController {
 
 extension MemoController {
     private func create(request: Request) throws -> EventLoopFuture<Memo> {
-        let contentType = request.headers["Content-Type"]
-
-        if contentType != ["application/json"] {
+        if request.headers.contentType != .json {
             throw MemoError.contentTypeIsNotJSON
         }
-
         try Memo.validate(content: request)
         let memo = try request.content.decode(Memo.self)
         return memo.create(on: request.db).map { memo }
@@ -80,9 +77,7 @@ extension MemoController {
 
 extension MemoController {
     private func update(request: Request) throws -> EventLoopFuture<HTTPStatus> {
-        let contentType = request.headers["Content-Type"]
-
-        if contentType != ["application/json"] {
+        if request.headers.contentType != .json {
             throw MemoError.contentTypeIsNotJSON
         }
 
