@@ -19,8 +19,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func finishDraw(_ sender: UIButton) {
-        resultShapeLabel.text = "원"
-        percentageShapeLabel.text = "100%"
+        let imageRenderer = UIGraphicsImageRenderer(size: canvasView.bounds.size)
+        let drawImage = imageRenderer.image { _ in
+            canvasView.drawHierarchy(in: canvasView.bounds, afterScreenUpdates: true)
+        }
     }
 
 }
