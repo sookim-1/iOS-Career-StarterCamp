@@ -9,7 +9,7 @@ import UIKit
 
 class CanvasView: UIView {
 
-    var lines = [[CGPoint]]()
+    private var lines = [[CGPoint]]()
 
     override func draw(_ rect: CGRect) {
         super.draw(rect)
@@ -19,6 +19,7 @@ class CanvasView: UIView {
         context.setStrokeColor(UIColor.black.cgColor)
         context.setLineWidth(15)
         context.setLineCap(.round)
+        context.setLineJoin(.round)
 
         lines.forEach { (line) in
             for (i, point) in line.enumerated() {
