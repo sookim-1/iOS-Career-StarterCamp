@@ -2,6 +2,4 @@
 
 ### 프로젝트 관리 앱 저장소
 
-- 이 저장소를 자신의 저장소로 fork하여 프로젝트를 진행합니다
-
-
+- STEP1 PR : https://github.com/yagom-academy/ios-project-manager/pull/27
