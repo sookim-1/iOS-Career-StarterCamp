@@ -1,10 +1,14 @@
 # Juice Maker 🧃 
 
+- STEP1 PR : https://github.com/yagom-academy/ios-juice-maker/pull/38
+- STEP2 PR : https://github.com/yagom-academy/ios-juice-maker/pull/49
+- STEP3 PR : https://github.com/yagom-academy/ios-juice-maker/pull/62
+
 🎰 쥬스 주문! 재고 관리! 
 
 🗓 21.03.08 ~ 21.03.19 
 
-👥 Fezz, SuKim (2)
+👥 Fezz, SooKim (2)
 
 ## Feature
 
