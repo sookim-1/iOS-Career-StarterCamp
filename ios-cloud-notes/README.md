@@ -2,6 +2,5 @@
 
 ### 동기화 메모장 프로젝트 저장소
 
-- 이 저장소를 자신의 저장소로 fork하여 프로젝트를 진행합니다
-- 자신의 브랜치에 PR을 보내는지 꼭 확인한 후 PR을 보냅니다
-
+- STEP1 PR : https://github.com/yagom-academy/ios-cloud-notes/pull/28
+- STEP2 PR : https://github.com/yagom-academy/ios-cloud-notes/pull/42
