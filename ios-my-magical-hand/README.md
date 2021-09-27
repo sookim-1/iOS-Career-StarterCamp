@@ -2,6 +2,5 @@
 
 ### 내손은 금손 앱 저장소
 
-- 이 저장소를 자신의 저장소로 fork하여 프로젝트를 진행합니다
-
-
+- STEP1 PR : https://github.com/yagom-academy/ios-my-magical-hand/pull/15
+- STEP2 PR : https://github.com/yagom-academy/ios-my-magical-hand/pull/20
