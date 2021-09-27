@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7636C6E226C2732200AB63C7 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 7636C6E126C2732200AB63C7 /* .swiftlint.yml */; };
+		7636C6E426C2738C00AB63C7 /* CreateMLShapeClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7636C6E326C2738C00AB63C7 /* CreateMLShapeClassifier.mlmodel */; };
+		7636C6E626C2834900AB63C7 /* KerasShapeClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7636C6E526C2834900AB63C7 /* KerasShapeClassifier.mlmodel */; };
+		7647E28A26C687FA004C5918 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7647E28926C687FA004C5918 /* CanvasView.swift */; };
 		C7927576262C81C900EF5D3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7927575262C81C900EF5D3A /* AppDelegate.swift */; };
 		C7927578262C81C900EF5D3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7927577262C81C900EF5D3A /* SceneDelegate.swift */; };
 		C792757A262C81C900EF5D3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7927579262C81C900EF5D3A /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7636C6E126C2732200AB63C7 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		7636C6E326C2738C00AB63C7 /* CreateMLShapeClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CreateMLShapeClassifier.mlmodel; sourceTree = "<group>"; };
+		7636C6E526C2834900AB63C7 /* KerasShapeClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = KerasShapeClassifier.mlmodel; sourceTree = "<group>"; };
+		7647E28926C687FA004C5918 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		C7927572262C81C900EF5D3A /* MyMagicalHand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMagicalHand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7927575262C81C900EF5D3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7927577262C81C900EF5D3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +48,7 @@
 		C7927569262C81C900EF5D3A = {
 			isa = PBXGroup;
 			children = (
+				7636C6E126C2732200AB63C7 /* .swiftlint.yml */,
 				C7927574262C81C900EF5D3A /* MyMagicalHand */,
 				C7927573262C81C900EF5D3A /* Products */,
 			);
@@ -63,6 +72,9 @@
 				C792757E262C81CB00EF5D3A /* Assets.xcassets */,
 				C7927580262C81CB00EF5D3A /* LaunchScreen.storyboard */,
 				C7927583262C81CB00EF5D3A /* Info.plist */,
+				7636C6E326C2738C00AB63C7 /* CreateMLShapeClassifier.mlmodel */,
+				7636C6E526C2834900AB63C7 /* KerasShapeClassifier.mlmodel */,
+				7647E28926C687FA004C5918 /* CanvasView.swift */,
 			);
 			path = MyMagicalHand;
 			sourceTree = "<group>";
@@ -77,6 +89,7 @@
 				C792756E262C81C900EF5D3A /* Sources */,
 				C792756F262C81C900EF5D3A /* Frameworks */,
 				C7927570262C81C900EF5D3A /* Resources */,
+				7636C6E026C272FF00AB63C7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -124,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7636C6E226C2732200AB63C7 /* .swiftlint.yml in Resources */,
 				C7927582262C81CB00EF5D3A /* LaunchScreen.storyboard in Resources */,
 				C792757F262C81CB00EF5D3A /* Assets.xcassets in Resources */,
 				C792757D262C81C900EF5D3A /* Main.storyboard in Resources */,
@@ -132,6 +146,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7636C6E026C272FF00AB63C7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C792756E262C81C900EF5D3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,6 +173,9 @@
 			files = (
 				C792757A262C81C900EF5D3A /* ViewController.swift in Sources */,
 				C7927576262C81C900EF5D3A /* AppDelegate.swift in Sources */,
+				7647E28A26C687FA004C5918 /* CanvasView.swift in Sources */,
+				7636C6E626C2834900AB63C7 /* KerasShapeClassifier.mlmodel in Sources */,
+				7636C6E426C2738C00AB63C7 /* CreateMLShapeClassifier.mlmodel in Sources */,
 				C7927578262C81C900EF5D3A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
