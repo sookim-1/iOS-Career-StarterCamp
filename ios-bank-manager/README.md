@@ -2,5 +2,6 @@
 
 ### 은행 매니저 프로젝트 저장소
 
-- 이 저장소를 자신의 저장소로 fork하여 프로젝트를 진행합니다
-
+- STEP1 PR : https://github.com/yagom-academy/ios-bank-manager/pull/34
+- STEP2 PR : https://github.com/yagom-academy/ios-bank-manager/pull/44
+- STEP3 PR : https://github.com/yagom-academy/ios-bank-manager/pull/57
