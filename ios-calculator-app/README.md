@@ -2,6 +2,9 @@
 
 ### 계산기 프로젝트 저장소
 
+- STEP1 PR : https://github.com/yagom-academy/ios-calculator-app/pull/20
+- STEP2 PR : https://github.com/yagom-academy/ios-calculator-app/pull/30
+
 ## 1주차 (21.03.22(월) ~ 21.03.27(토))
 
 ### 초기 설계
