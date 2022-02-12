@@ -1,5 +1,6 @@
 # iOS-Career-StarterCamp
 야곰아카데미 부트캠프에서 진행한 프로젝트 저장소
+**각 프로젝트의 ReadMe를 통해 PR기록을 확인할 수 있습니다.**
 
 <p><img src="https://cdn.discordapp.com/attachments/814079004377350172/891983179378982952/yagom_icon.png" alt="42 Logo.svg" width="142"></p>
 
